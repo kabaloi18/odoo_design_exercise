@@ -3,7 +3,7 @@
 $fonts: 'Poppins', Helvertica, sans-serif;
 $bg-blue: #3C88F7;
 $footer-navy: #151345;
-$award-color: #FAFBFF;
+$award-color: #5F6DC6;
 $gray-color: #C0C0C0;
 
 html {
@@ -56,11 +56,12 @@ header {
 
         .cop-logo {
             width: 72.5px;
+            margin: 0px 10px;
         }
 
         .slogan-right {
             width: 500px;
-            height: 500px;
+            height: 550px;
             background-color: white;
             color: black;
             border-radius: 20px 15px 100px;
@@ -74,7 +75,7 @@ header {
 
                 .credit-card {
                     width: 450px;
-                    height: 275px;
+                    height: 235px;
                     margin-top: 15px;
                     background: linear-gradient(166deg, rgba(29, 19, 68, 1) 0%, rgba(116, 184, 244, 1) 49%, rgba(41, 130, 236, 1) 100%);
                     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -85,7 +86,7 @@ header {
 
                     .credit-card-inner {
                         width: 400px;
-                        height: 275px;
+                        height: 235px;
                         margin: 15px auto 0;
 
                         p {
@@ -101,6 +102,17 @@ header {
                         }
                     }
                 }
+
+                .bill-container {
+                    margin: 10px 0px;
+                    border-bottom: 1px solid $gray-color;
+                }
+
+                .view-all-nav {
+                    color: $bg-blue;
+                    text-decoration: underline dotted;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -108,13 +120,15 @@ header {
 
 main {
     margin-top: 150px;
-    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     line-height: 2.5rem;
 
     .main-div {
+        width: 1200px;
         height: 400px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 100px;
 
         .img-02-src {
@@ -144,20 +158,44 @@ main {
         .card-shadow {
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
             border-radius: 30px;
+
+            .img-01-src {
+                background-image: url('/images/img_01.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 30px;
+                position: absolute;
+                left: 250px;
+                top: -100px;
+                width: 350px;
+                height: 300px;
+
+            }
         }
 
         .green-text {
             color: rgb(64, 133, 89);
         }
+    }
+
+    .main-div-hei {
+        width: 1200px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
 
         .case-studies {
             color: rgb(49, 109, 244);
-            text-decoration: underline;
+            text-decoration: underline 3px;
             cursor: pointer;
         }
     }
 
     .solution-section {
+        width: 1200px;
+        margin: 0 auto;
         height: 250px;
         background-color: $footer-navy;
         color: white;
@@ -176,18 +214,50 @@ main {
     }
 
     .award-section {
-        background-color: $award-color;
-        margin: 150px 0px;
+        width: 1200px;
+        // background-color: $award-color;
+        // border-radius: 50% 20% / 10% 40%;
+        margin: 100px auto;
+        height: 500px;
+
+        .award-section-inner {
+            width: 1200px;
+            // margin: 100px auto;
+
+            .award-cards {
+                height: 500px;
+
+                .card {
+                    height: 350px;
+                    border-radius: 20px;
+
+                    p {
+                        line-height: 25px;
+                    }
+
+                    .learn-more {
+                        text-decoration: underline 3px;
+                    }
+                }
+
+                .card:hover {
+                    cursor: pointer;
+                    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                }
+            }
+        }
     }
 
     .qa-section {
-        margin: 150px 0px;
+        margin: 150px auto;
+        width: 1000px;
+
     }
 
 }
 
 footer {
-    height: 650px;
+    height: 475px;
     color: $gray-color;
 
     a {
@@ -198,7 +268,7 @@ footer {
     .footer-tri-bg {
         background-color: $footer-navy;
         width: 100%;
-        height: 650px;
+        height: 475px;
         z-index: -1;
         position: absolute;
         transform-origin: 0 100%;

@@ -45,10 +45,11 @@ header .slogan {
 }
 header .slogan .cop-logo {
   width: 72.5px;
+  margin: 0px 10px;
 }
 header .slogan .slogan-right {
   width: 500px;
-  height: 500px;
+  height: 550px;
   background-color: white;
   color: black;
   border-radius: 20px 15px 100px;
@@ -62,7 +63,7 @@ header .slogan .slogan-right .slogan-right-inner {
 }
 header .slogan .slogan-right .slogan-right-inner .credit-card {
   width: 450px;
-  height: 275px;
+  height: 235px;
   margin-top: 15px;
   background: linear-gradient(166deg, rgb(29, 19, 68) 0%, rgb(116, 184, 244) 49%, rgb(41, 130, 236) 100%);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -73,7 +74,7 @@ header .slogan .slogan-right .slogan-right-inner .credit-card {
 }
 header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner {
   width: 400px;
-  height: 275px;
+  height: 235px;
   margin: 15px auto 0;
 }
 header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner p {
@@ -86,16 +87,28 @@ header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner
   width: 75px;
   height: 35px;
 }
+header .slogan .slogan-right .slogan-right-inner .bill-container {
+  margin: 10px 0px;
+  border-bottom: 1px solid #C0C0C0;
+}
+header .slogan .slogan-right .slogan-right-inner .view-all-nav {
+  color: #3C88F7;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  cursor: pointer;
+}
 
 main {
   margin-top: 150px;
-  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   line-height: 2.5rem;
 }
 main .main-div {
+  width: 1200px;
   height: 400px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
 }
 main .main-div .img-02-src {
@@ -122,15 +135,37 @@ main .main-div .card-shadow {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 30px;
 }
+main .main-div .card-shadow .img-01-src {
+  background-image: url("/images/img_01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  position: absolute;
+  left: 250px;
+  top: -100px;
+  width: 350px;
+  height: 300px;
+}
 main .main-div .green-text {
   color: rgb(64, 133, 89);
 }
-main .main-div .case-studies {
+main .main-div-hei {
+  width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+main .main-div-hei .case-studies {
   color: rgb(49, 109, 244);
-  text-decoration: underline;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
   cursor: pointer;
 }
 main .solution-section {
+  width: 1200px;
+  margin: 0 auto;
   height: 250px;
   background-color: #151345;
   color: white;
@@ -147,15 +182,38 @@ main .solution-section .btn {
   --bs-btn-font-size: 15px;
 }
 main .award-section {
-  background-color: #FAFBFF;
-  margin: 150px 0px;
+  width: 1200px;
+  margin: 100px auto;
+  height: 500px;
+}
+main .award-section .award-section-inner {
+  width: 1200px;
+}
+main .award-section .award-section-inner .award-cards {
+  height: 500px;
+}
+main .award-section .award-section-inner .award-cards .card {
+  height: 350px;
+  border-radius: 20px;
+}
+main .award-section .award-section-inner .award-cards .card p {
+  line-height: 25px;
+}
+main .award-section .award-section-inner .award-cards .card .learn-more {
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+}
+main .award-section .award-section-inner .award-cards .card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 main .qa-section {
-  margin: 150px 0px;
+  margin: 150px auto;
+  width: 1000px;
 }
 
 footer {
-  height: 650px;
+  height: 475px;
   color: #C0C0C0;
 }
 footer a {
@@ -165,7 +223,7 @@ footer a {
 footer .footer-tri-bg {
   background-color: #151345;
   width: 100%;
-  height: 650px;
+  height: 475px;
   z-index: -1;
   position: absolute;
   transform-origin: 0 100%;
