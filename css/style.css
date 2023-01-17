@@ -31,7 +31,7 @@ header .nav-section a {
 }
 header .nav-section div .odoo_logo {
   display: block;
-  background-image: url("/images/odoo-white.svg");
+  background-image: url("../images/odoo-white.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 75px;
