@@ -1,0 +1,199 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+html {
+  font-family: "Poppins", Helvertica, sans-serif;
+}
+
+header {
+  height: 800px;
+  color: white;
+}
+header .tri-bg {
+  background-color: #3C88F7;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+  position: absolute;
+  transform-origin: 0 100%;
+  transform: skewY(-2deg);
+}
+header .nav-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  height: 60px;
+  border-bottom: 1px solid #E0E0E0;
+}
+header .nav-section a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1vw;
+  cursor: pointer;
+}
+header .nav-section div .odoo_logo {
+  display: block;
+  background-image: url("/images/odoo-white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 35px;
+}
+header .slogan {
+  width: 1000px;
+  height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header .slogan .cop-logo {
+  width: 72.5px;
+}
+header .slogan .slogan-right {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  border-radius: 20px 15px 100px;
+}
+header .slogan .slogan-right .slogan-right-inner {
+  width: 450px;
+  height: 555px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header .slogan .slogan-right .slogan-right-inner .credit-card {
+  width: 450px;
+  height: 275px;
+  margin-top: 15px;
+  background: linear-gradient(166deg, rgb(29, 19, 68) 0%, rgb(116, 184, 244) 49%, rgb(41, 130, 236) 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner {
+  width: 400px;
+  height: 275px;
+  margin: 15px auto 0;
+}
+header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner p {
+  color: white;
+}
+header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner .master-card {
+  background-image: url("/images/mastercard.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 35px;
+}
+
+main {
+  margin-top: 150px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.5rem;
+}
+main .main-div {
+  height: 400px;
+  margin-bottom: 100px;
+}
+main .main-div .img-02-src {
+  background-image: url("/images/img_02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+main .main-div .img-03-src {
+  background-image: url("/images/img_03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+main .main-div h5 {
+  margin-bottom: 25px;
+}
+main .main-div .progress-height {
+  height: 90px;
+}
+main .main-div .card-shadow {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 30px;
+}
+main .main-div .green-text {
+  color: rgb(64, 133, 89);
+}
+main .main-div .case-studies {
+  color: rgb(49, 109, 244);
+  text-decoration: underline;
+  cursor: pointer;
+}
+main .solution-section {
+  height: 250px;
+  background-color: #151345;
+  color: white;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+main .solution-section .btn {
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-bg: var(--bs-white);
+  --bs-btn-border-color: var(--bd-white);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-color: var(--bs-black);
+  --bs-btn-font-weight: 350;
+  --bs-btn-font-size: 15px;
+}
+main .award-section {
+  background-color: #FAFBFF;
+  margin: 150px 0px;
+}
+main .qa-section {
+  margin: 150px 0px;
+}
+
+footer {
+  height: 650px;
+  color: #C0C0C0;
+}
+footer a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+footer .footer-tri-bg {
+  background-color: #151345;
+  width: 100%;
+  height: 650px;
+  z-index: -1;
+  position: absolute;
+  transform-origin: 0 100%;
+  transform: skewY(0deg);
+}
+footer .upper-footer {
+  width: 1000px;
+  margin: 0pc auto 50px;
+  padding-top: 40px;
+}
+footer .lower-footer {
+  width: 1000px;
+  margin: 5px auto;
+  border-top: 1px solid rgba(224, 224, 224, 0.1);
+  border-bottom: 1px solid rgba(224, 224, 224, 0.1);
+}
+footer .lower-footer .lower-footer-left .odoo-logo {
+  background-image: url("/images/odoo-white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 35px;
+  display: block;
+}
+footer .copyright-section {
+  width: 1000px;
+  margin: 0 auto;
+}
+footer .copyright-section p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */
