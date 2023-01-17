@@ -81,7 +81,7 @@ header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner
   color: white;
 }
 header .slogan .slogan-right .slogan-right-inner .credit-card .credit-card-inner .master-card {
-  background-image: url("/images/mastercard.svg");
+  background-image: url("../images/mastercard.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 75px;
@@ -112,14 +112,14 @@ main .main-div {
   margin-bottom: 100px;
 }
 main .main-div .img-02-src {
-  background-image: url("/images/img_02.jpg");
+  background-image: url("../images/img_02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30px;
 }
 main .main-div .img-03-src {
-  background-image: url("/images/img_03.jpg");
+  background-image: url("../images/img_03.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,7 +136,7 @@ main .main-div .card-shadow {
   border-radius: 30px;
 }
 main .main-div .card-shadow .img-01-src {
-  background-image: url("/images/img_01.jpg");
+  background-image: url("../images/img_01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -241,7 +241,7 @@ footer .lower-footer {
   border-bottom: 1px solid rgba(224, 224, 224, 0.1);
 }
 footer .lower-footer .lower-footer-left .odoo-logo {
-  background-image: url("/images/odoo-white.svg");
+  background-image: url("../images/odoo-white.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 75px;
